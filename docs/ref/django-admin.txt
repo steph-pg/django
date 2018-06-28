@@ -215,6 +215,13 @@ program manually.
 
 Specifies the database onto which to open a shell. Defaults to ``default``.
 
+.. django-admin-option:: --command COMMAND, -c COMMAND
+
+Allows you to pass an SQL statement as a string::
+
+    django-admin shell --command "SELECT * FROM auth_user"
+
+
 ``diffsettings``
 ----------------
 
